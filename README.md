@@ -71,14 +71,15 @@ class AnyClass{
 
 ### 4. Интерфейсы и объекты
 
+> ? - указывает что свойство `age` не обязательное
+
 ```
 interface Interface{
     name:string,
-    age:number
+    age?:number
 }
 const obj:Interface = {
     name: 'Max',
-    age: 28
 }
 ```
 
